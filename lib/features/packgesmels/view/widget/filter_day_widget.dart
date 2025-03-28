@@ -14,7 +14,7 @@ class FilterDayWidget extends StatelessWidget {
                   color: Colors.green,
                   borderRadius: BorderRadius.circular(6),
                 ),
-                child: Center(child: Text('$title')),
+                child: Center(child: Text(title)),
               );
   }
 }

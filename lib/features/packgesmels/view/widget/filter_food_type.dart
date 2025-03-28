@@ -12,6 +12,7 @@ class FilterFoodType extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.end,
         children: [
           ...List.generate(
+            
             foodtypes.length,
             (index) => FilterDayWidget(title: foodtypes[index]),
           ),
